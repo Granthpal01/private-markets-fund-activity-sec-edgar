@@ -1,0 +1,6 @@
+data/raw/
+data/processed/master_funds.csv
+__pycache__/
+*.pyc
+.DS_Store
+venv/
