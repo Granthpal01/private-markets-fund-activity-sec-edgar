@@ -41,17 +41,17 @@ proprietary research — making this project a direct simulation of
 their data sourcing methodology.
 
 ---
-
 ## Project Structure
-├── 01_explore.py          # Single quarter exploration
-├── 02_build_master.py     # Full 12-quarter pipeline
-├── 03_analysis.py         # Business analysis
-├── 04_sql_analysis.py     # SQL validation queries
-├── 05_charts.py           # Python visualisations
-├── data/processed/        # Cleaned CSVs and SQLite DB
-└── outputs/               # Chart PNGs
 
----
+| File | Purpose |
+|---|---|
+| `01_explore.py` | Single quarter exploration |
+| `02_build_master.py` | Full 12-quarter pipeline |
+| `03_analysis.py` | Business analysis |
+| `04_sql_analysis.py` | SQL validation queries |
+| `05_charts.py` | Python visualisations |
+| `data/processed/` | Cleaned CSVs and SQLite DB |
+| `outputs/` | Chart PNGs |
 
 ## How to Reproduce
 
